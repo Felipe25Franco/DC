@@ -1,0 +1,104 @@
+body{
+    background-color:  #293b88;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+  } /* DEIXA OS ITENS FLEXIVEIS EM UMA UNICA LINHA OU COLUNA; DEIXA OS ITENS ESPAÇADOS IGUALMENTES; CENTRALIZA OS ITENS VERTICALMENTES; POSSUI A COR DE FUNDO CINZA;
+  UM ESPAÇAMENTO NAS EXTREMIDADES DE 20PX; A COR DAS LETRAS BRANCAS*/
+  
+  h2{
+    text-align: center;
+  } /* ALINHA O TEXTO NO CENTRO */
+    
+  .banner {
+    display: flex;
+    align-items: center;
+  }/* DEIXA OS ITENS FLEXIVEIS EM UMA UNICA LINHA OU COLUNA; ALINHA O TEXTO NO CENTRO */
+    
+  .banner h1 {
+    margin: 0;
+  }/*  */
+    
+  .banner img {
+    width: 100px;
+    margin-left: 20px;
+  }
+    
+  nav {
+    display: flex;
+  }
+    
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+    
+  nav li {
+    margin-left: 20px;
+  }
+    
+  nav li a {
+    color: white;
+    text-decoration: none;
+  }
+    
+  nav li a:hover {
+    text-decoration: underline;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+    
+  label {
+    color: #000000;
+  }
+    
+  input[type="email"], input[type="password"], input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: solid 1px black;
+  }
+    
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #dc143c;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+    
+  .login-form, .register-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+    
+  .register-form {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+  }
